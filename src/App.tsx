@@ -100,7 +100,7 @@ const getCoordinatesForACircle = (gridHeight: number, circleDiameter: number) =>
 }
 
 function App() {
-  const [flagHeight, setFlagHeight] = useState(100)
+  const [flagHeight, setFlagHeight] = useState(120)
 
   const flagLength = Math.round(flagHeight * 1.5)
   const circleSize = Math.round(flagHeight * (3/5))
